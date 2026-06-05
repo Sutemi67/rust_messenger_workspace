@@ -1,0 +1,2128 @@
+   0.056238200s  INFO prepare_target{force=false package_id=rust_server_backend v0.1.0 (C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend) target="rust_server_backend"}: cargo::core::compiler::fingerprint: fingerprint error for rust_server_backend v0.1.0 (C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend)/Check { test: false }/TargetInner { name: "rust_server_backend", doc: true, ..: with_path("C:\\Users\\user\\MyProjects\\rust_messenger_workspace\\rust_server_backend\\src\\main.rs", Edition2024) }
+   0.056404500s  INFO prepare_target{force=false package_id=rust_server_backend v0.1.0 (C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend) target="rust_server_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\rust_server_backend-9296694afa37d83c\bin-rust_server_backend`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.064971700s  INFO prepare_target{force=false package_id=axum v0.8.9 target="axum"}: cargo::core::compiler::fingerprint: fingerprint error for axum v0.8.9/Check { test: false }/TargetInner { ..: lib_target("axum", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\axum-0.8.9\\src\\lib.rs", Edition2021) }
+   0.064996800s  INFO prepare_target{force=false package_id=axum v0.8.9 target="axum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\axum-a2be4b974def3eb8\lib-axum`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.065594700s  INFO prepare_target{force=false package_id=axum-core v0.5.6 target="axum_core"}: cargo::core::compiler::fingerprint: fingerprint error for axum-core v0.5.6/Check { test: false }/TargetInner { ..: lib_target("axum_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\axum-core-0.5.6\\src\\lib.rs", Edition2021) }
+   0.065607300s  INFO prepare_target{force=false package_id=axum-core v0.5.6 target="axum_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\axum-core-b54ef7bed9445ad5\lib-axum_core`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.066023900s  INFO prepare_target{force=false package_id=bytes v1.11.1 target="bytes"}: cargo::core::compiler::fingerprint: fingerprint error for bytes v1.11.1/Check { test: false }/TargetInner { ..: lib_target("bytes", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bytes-1.11.1\\src\\lib.rs", Edition2021) }
+   0.066035700s  INFO prepare_target{force=false package_id=bytes v1.11.1 target="bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\bytes-d1b03353c603f31d\lib-bytes`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.066334400s  INFO prepare_target{force=false package_id=futures-core v0.3.32 target="futures_core"}: cargo::core::compiler::fingerprint: fingerprint error for futures-core v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-core-0.3.32\\src\\lib.rs", Edition2018) }
+   0.066346300s  INFO prepare_target{force=false package_id=futures-core v0.3.32 target="futures_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\futures-core-cc2616aefd3bf110\lib-futures_core`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.066831400s  INFO prepare_target{force=false package_id=http v1.4.0 target="http"}: cargo::core::compiler::fingerprint: fingerprint error for http v1.4.0/Check { test: false }/TargetInner { ..: lib_target("http", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\http-1.4.0\\src\\lib.rs", Edition2021) }
+   0.066850000s  INFO prepare_target{force=false package_id=http v1.4.0 target="http"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\http-30f6587e9251a429\lib-http`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.067140300s  INFO prepare_target{force=false package_id=itoa v1.0.18 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint error for itoa v1.0.18/Check { test: false }/TargetInner { ..: lib_target("itoa", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itoa-1.0.18\\src\\lib.rs", Edition2021) }
+   0.067151300s  INFO prepare_target{force=false package_id=itoa v1.0.18 target="itoa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\itoa-120546458fa616c5\lib-itoa`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.067466100s  INFO prepare_target{force=false package_id=http-body v1.0.1 target="http_body"}: cargo::core::compiler::fingerprint: fingerprint error for http-body v1.0.1/Check { test: false }/TargetInner { ..: lib_target("http_body", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\http-body-1.0.1\\src\\lib.rs", Edition2018) }
+   0.067480800s  INFO prepare_target{force=false package_id=http-body v1.0.1 target="http_body"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\http-body-050e0735e9155daf\lib-http_body`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.067780400s  INFO prepare_target{force=false package_id=http-body-util v0.1.3 target="http_body_util"}: cargo::core::compiler::fingerprint: fingerprint error for http-body-util v0.1.3/Check { test: false }/TargetInner { ..: lib_target("http_body_util", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\http-body-util-0.1.3\\src\\lib.rs", Edition2018) }
+   0.067791900s  INFO prepare_target{force=false package_id=http-body-util v0.1.3 target="http_body_util"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\http-body-util-5aa8bb98e195cbde\lib-http_body_util`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.068239700s  INFO prepare_target{force=false package_id=pin-project-lite v0.2.17 target="pin_project_lite"}: cargo::core::compiler::fingerprint: fingerprint error for pin-project-lite v0.2.17/Check { test: false }/TargetInner { doc_scrape_examples: Disabled, ..: lib_target("pin_project_lite", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pin-project-lite-0.2.17\\src\\lib.rs", Edition2018) }
+   0.068252000s  INFO prepare_target{force=false package_id=pin-project-lite v0.2.17 target="pin_project_lite"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\pin-project-lite-8e269f70c50e6f50\lib-pin_project_lite`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.068556700s  INFO prepare_target{force=false package_id=mime v0.3.17 target="mime"}: cargo::core::compiler::fingerprint: fingerprint error for mime v0.3.17/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mime", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mime-0.3.17\\src\\lib.rs", Edition2015) }
+   0.068567500s  INFO prepare_target{force=false package_id=mime v0.3.17 target="mime"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\mime-518a52c51f0488c0\lib-mime`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.068851300s  INFO prepare_target{force=false package_id=sync_wrapper v1.0.2 target="sync_wrapper"}: cargo::core::compiler::fingerprint: fingerprint error for sync_wrapper v1.0.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sync_wrapper", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sync_wrapper-1.0.2\\src\\lib.rs", Edition2021) }
+   0.068863000s  INFO prepare_target{force=false package_id=sync_wrapper v1.0.2 target="sync_wrapper"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\sync_wrapper-706a6feab1fe7991\lib-sync_wrapper`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.069209500s  INFO prepare_target{force=false package_id=tower-layer v0.3.3 target="tower_layer"}: cargo::core::compiler::fingerprint: fingerprint error for tower-layer v0.3.3/Check { test: false }/TargetInner { ..: lib_target("tower_layer", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-layer-0.3.3\\src\\lib.rs", Edition2018) }
+   0.069221200s  INFO prepare_target{force=false package_id=tower-layer v0.3.3 target="tower_layer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\tower-layer-4736266191c68a93\lib-tower_layer`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.069510300s  INFO prepare_target{force=false package_id=tower-service v0.3.3 target="tower_service"}: cargo::core::compiler::fingerprint: fingerprint error for tower-service v0.3.3/Check { test: false }/TargetInner { ..: lib_target("tower_service", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-service-0.3.3\\src\\lib.rs", Edition2018) }
+   0.069521800s  INFO prepare_target{force=false package_id=tower-service v0.3.3 target="tower_service"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\tower-service-621ee16da2f32728\lib-tower_service`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.069807300s  INFO prepare_target{force=false package_id=tracing v0.1.44 target="tracing"}: cargo::core::compiler::fingerprint: fingerprint error for tracing v0.1.44/Check { test: false }/TargetInner { ..: lib_target("tracing", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-0.1.44\\src\\lib.rs", Edition2018) }
+   0.069818500s  INFO prepare_target{force=false package_id=tracing v0.1.44 target="tracing"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\tracing-c8e8931325f14d6b\lib-tracing`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.070182900s  INFO prepare_target{force=false package_id=log v0.4.29 target="log"}: cargo::core::compiler::fingerprint: fingerprint error for log v0.4.29/Check { test: false }/TargetInner { ..: lib_target("log", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\log-0.4.29\\src\\lib.rs", Edition2021) }
+   0.070194100s  INFO prepare_target{force=false package_id=log v0.4.29 target="log"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\log-5a9119114236f0fa\lib-log`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.070568800s  INFO prepare_target{force=false package_id=tracing-core v0.1.36 target="tracing_core"}: cargo::core::compiler::fingerprint: fingerprint error for tracing-core v0.1.36/Check { test: false }/TargetInner { ..: lib_target("tracing_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tracing-core-0.1.36\\src\\lib.rs", Edition2018) }
+   0.070580900s  INFO prepare_target{force=false package_id=tracing-core v0.1.36 target="tracing_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\tracing-core-f3d018995479458d\lib-tracing_core`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.070913700s  INFO prepare_target{force=false package_id=once_cell v1.21.4 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.4/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.4\\src\\lib.rs", Edition2021) }
+   0.070924900s  INFO prepare_target{force=false package_id=once_cell v1.21.4 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\once_cell-41fd858d4fca1fb4\lib-once_cell`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.071248400s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.22.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.22.1\\src\\lib.rs", Edition2018) }
+   0.071259600s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\base64-3a49147d849773fa\lib-base64`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.071620900s  INFO prepare_target{force=false package_id=form_urlencoded v1.2.2 target="form_urlencoded"}: cargo::core::compiler::fingerprint: fingerprint error for form_urlencoded v1.2.2/Check { test: false }/TargetInner { tested: false, ..: lib_target("form_urlencoded", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\form_urlencoded-1.2.2\\src\\lib.rs", Edition2018) }
+   0.071633800s  INFO prepare_target{force=false package_id=form_urlencoded v1.2.2 target="form_urlencoded"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\form_urlencoded-6dd31da5f8bbdb15\lib-form_urlencoded`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.071940600s  INFO prepare_target{force=false package_id=percent-encoding v2.3.2 target="percent_encoding"}: cargo::core::compiler::fingerprint: fingerprint error for percent-encoding v2.3.2/Check { test: false }/TargetInner { ..: lib_target("percent_encoding", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\percent-encoding-2.3.2\\src\\lib.rs", Edition2018) }
+   0.071952700s  INFO prepare_target{force=false package_id=percent-encoding v2.3.2 target="percent_encoding"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\percent-encoding-7a609891a6b909f6\lib-percent_encoding`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.072248200s  INFO prepare_target{force=false package_id=futures-util v0.3.32 target="futures_util"}: cargo::core::compiler::fingerprint: fingerprint error for futures-util v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_util", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-util-0.3.32\\src\\lib.rs", Edition2018) }
+   0.072259900s  INFO prepare_target{force=false package_id=futures-util v0.3.32 target="futures_util"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\futures-util-16605430c2d3704d\lib-futures_util`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.074211700s  INFO prepare_target{force=false package_id=futures-sink v0.3.32 target="futures_sink"}: cargo::core::compiler::fingerprint: fingerprint error for futures-sink v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_sink", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-sink-0.3.32\\src\\lib.rs", Edition2018) }
+   0.074226300s  INFO prepare_target{force=false package_id=futures-sink v0.3.32 target="futures_sink"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\futures-sink-2b7466ea735f1fd7\lib-futures_sink`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.074637700s  INFO prepare_target{force=false package_id=futures-task v0.3.32 target="futures_task"}: cargo::core::compiler::fingerprint: fingerprint error for futures-task v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_task", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-task-0.3.32\\src\\lib.rs", Edition2018) }
+   0.074651600s  INFO prepare_target{force=false package_id=futures-task v0.3.32 target="futures_task"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\futures-task-54e4c6e17aaa5be6\lib-futures_task`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.074960300s  INFO prepare_target{force=false package_id=slab v0.4.12 target="slab"}: cargo::core::compiler::fingerprint: fingerprint error for slab v0.4.12/Check { test: false }/TargetInner { ..: lib_target("slab", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\slab-0.4.12\\src\\lib.rs", Edition2018) }
+   0.074972100s  INFO prepare_target{force=false package_id=slab v0.4.12 target="slab"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\slab-40afb97792032206\lib-slab`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.075427400s  INFO prepare_target{force=false package_id=hyper v1.9.0 target="hyper"}: cargo::core::compiler::fingerprint: fingerprint error for hyper v1.9.0/Check { test: false }/TargetInner { ..: lib_target("hyper", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hyper-1.9.0\\src\\lib.rs", Edition2021) }
+   0.075440000s  INFO prepare_target{force=false package_id=hyper v1.9.0 target="hyper"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\hyper-36d3b6809e3c5499\lib-hyper`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.075943600s  INFO prepare_target{force=false package_id=atomic-waker v1.1.2 target="atomic_waker"}: cargo::core::compiler::fingerprint: fingerprint error for atomic-waker v1.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("atomic_waker", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\atomic-waker-1.1.2\\src\\lib.rs", Edition2018) }
+   0.075955800s  INFO prepare_target{force=false package_id=atomic-waker v1.1.2 target="atomic_waker"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\atomic-waker-37dc9b4ba20b5be1\lib-atomic_waker`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.076267500s  INFO prepare_target{force=false package_id=futures-channel v0.3.32 target="futures_channel"}: cargo::core::compiler::fingerprint: fingerprint error for futures-channel v0.3.32/Check { test: false }/TargetInner { ..: lib_target("futures_channel", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\futures-channel-0.3.32\\src\\lib.rs", Edition2018) }
+   0.076279500s  INFO prepare_target{force=false package_id=futures-channel v0.3.32 target="futures_channel"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\futures-channel-9144777bad2088d8\lib-futures_channel`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.076581700s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="httparse"}: cargo::core::compiler::fingerprint: fingerprint error for httparse v1.10.1/Check { test: false }/TargetInner { benched: false, ..: lib_target("httparse", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httparse-1.10.1\\src\\lib.rs", Edition2018) }
+   0.076593300s  INFO prepare_target{force=false package_id=httparse v1.10.1 target="httparse"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\httparse-353e32245d75214c\lib-httparse`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.077412400s  INFO prepare_target{force=false package_id=httpdate v1.0.3 target="httpdate"}: cargo::core::compiler::fingerprint: fingerprint error for httpdate v1.0.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("httpdate", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\httpdate-1.0.3\\src\\lib.rs", Edition2021) }
+   0.077424300s  INFO prepare_target{force=false package_id=httpdate v1.0.3 target="httpdate"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\httpdate-cd76abbf64c31bdf\lib-httpdate`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.077777700s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint: fingerprint error for smallvec v1.15.1/Check { test: false }/TargetInner { ..: lib_target("smallvec", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\smallvec-1.15.1\\src\\lib.rs", Edition2018) }
+   0.077789400s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\smallvec-636b91b246773718\lib-smallvec`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.078099300s  INFO prepare_target{force=false package_id=tokio v1.52.1 target="tokio"}: cargo::core::compiler::fingerprint: fingerprint error for tokio v1.52.1/Check { test: false }/TargetInner { ..: lib_target("tokio", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-1.52.1\\src\\lib.rs", Edition2021) }
+   0.078110500s  INFO prepare_target{force=false package_id=tokio v1.52.1 target="tokio"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\tokio-06cb962f6ef264eb\lib-tokio`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.078665900s  INFO prepare_target{force=false package_id=mio v1.2.0 target="mio"}: cargo::core::compiler::fingerprint: fingerprint error for mio v1.2.0/Check { test: false }/TargetInner { ..: lib_target("mio", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\mio-1.2.0\\src\\lib.rs", Edition2021) }
+   0.078677500s  INFO prepare_target{force=false package_id=mio v1.2.0 target="mio"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\mio-30623d92ff8f54fb\lib-mio`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.079091100s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.61.2/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.61.2\\src\\lib.rs", Edition2021) }
+   0.079103700s  INFO prepare_target{force=false package_id=windows-sys v0.61.2 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\windows-sys-a1f2cda17c7c888e\lib-windows_sys`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.079565400s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint: fingerprint error for windows-link v0.2.1/Check { test: false }/TargetInner { ..: lib_target("windows_link", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-link-0.2.1\\src\\lib.rs", Edition2021) }
+   0.079577000s  INFO prepare_target{force=false package_id=windows-link v0.2.1 target="windows_link"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\windows-link-a2622e52308cdcaa\lib-windows_link`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.079913600s  INFO prepare_target{force=false package_id=socket2 v0.6.3 target="socket2"}: cargo::core::compiler::fingerprint: fingerprint error for socket2 v0.6.3/Check { test: false }/TargetInner { ..: lib_target("socket2", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\socket2-0.6.3\\src\\lib.rs", Edition2021) }
+   0.079925200s  INFO prepare_target{force=false package_id=socket2 v0.6.3 target="socket2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\socket2-a0f637ccc99fbba7\lib-socket2`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.080465500s  INFO prepare_target{force=false package_id=hyper-util v0.1.20 target="hyper_util"}: cargo::core::compiler::fingerprint: fingerprint error for hyper-util v0.1.20/Check { test: false }/TargetInner { ..: lib_target("hyper_util", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hyper-util-0.1.20\\src\\lib.rs", Edition2021) }
+   0.080477200s  INFO prepare_target{force=false package_id=hyper-util v0.1.20 target="hyper_util"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\hyper-util-24505e946c64ea44\lib-hyper_util`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.080968700s  INFO prepare_target{force=false package_id=matchit v0.8.4 target="matchit"}: cargo::core::compiler::fingerprint: fingerprint error for matchit v0.8.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("matchit", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\matchit-0.8.4\\src\\lib.rs", Edition2021) }
+   0.080991300s  INFO prepare_target{force=false package_id=matchit v0.8.4 target="matchit"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\matchit-c881a8577b73db56\lib-matchit`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.081513200s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.8.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.8.0\\src\\lib.rs", Edition2021) }
+   0.081527500s  INFO prepare_target{force=false package_id=memchr v2.8.0 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\memchr-716ac2addfc12d2e\lib-memchr`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.081916400s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   0.081928900s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\serde_core-d4d44c8a6d5cb04c\lib-serde_core`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.082796500s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.149/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.149\\src\\lib.rs", Edition2021) }
+   0.082810600s  INFO prepare_target{force=false package_id=serde_json v1.0.149 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\serde_json-925b6d0b7e1301ea\lib-serde_json`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.083726100s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint: fingerprint error for zmij v1.0.21/Check { test: false }/TargetInner { ..: lib_target("zmij", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zmij-1.0.21\\src\\lib.rs", Edition2021) }
+   0.083738500s  INFO prepare_target{force=false package_id=zmij v1.0.21 target="zmij"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\zmij-c70c0b499ff2eb91\lib-zmij`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.084463200s  INFO prepare_target{force=false package_id=serde_path_to_error v0.1.20 target="serde_path_to_error"}: cargo::core::compiler::fingerprint: fingerprint error for serde_path_to_error v0.1.20/Check { test: false }/TargetInner { ..: lib_target("serde_path_to_error", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_path_to_error-0.1.20\\src\\lib.rs", Edition2021) }
+   0.084475900s  INFO prepare_target{force=false package_id=serde_path_to_error v0.1.20 target="serde_path_to_error"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\serde_path_to_error-6d106ff1dbaa88b4\lib-serde_path_to_error`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.084905700s  INFO prepare_target{force=false package_id=serde_urlencoded v0.7.1 target="serde_urlencoded"}: cargo::core::compiler::fingerprint: fingerprint error for serde_urlencoded v0.7.1/Check { test: false }/TargetInner { name_inferred: true, tested: false, ..: lib_target("serde_urlencoded", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_urlencoded-0.7.1\\src\\lib.rs", Edition2018) }
+   0.084918500s  INFO prepare_target{force=false package_id=serde_urlencoded v0.7.1 target="serde_urlencoded"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\serde_urlencoded-bfcc4200ceb73370\lib-serde_urlencoded`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.085336300s  INFO prepare_target{force=false package_id=ryu v1.0.23 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint error for ryu v1.0.23/Check { test: false }/TargetInner { ..: lib_target("ryu", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ryu-1.0.23\\src\\lib.rs", Edition2021) }
+   0.085350600s  INFO prepare_target{force=false package_id=ryu v1.0.23 target="ryu"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\ryu-e3e01b2a58d0ed8c\lib-ryu`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.085661600s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.085673100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\serde-173269b165b884c1\lib-serde`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.086531700s  INFO prepare_target{force=false package_id=sha1 v0.10.6 target="sha1"}: cargo::core::compiler::fingerprint: fingerprint error for sha1 v0.10.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha1", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha1-0.10.6\\src\\lib.rs", Edition2018) }
+   0.086543500s  INFO prepare_target{force=false package_id=sha1 v0.10.6 target="sha1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\sha1-25fb498cf9b4689d\lib-sha1`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.086945400s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
+   0.086957800s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\cfg-if-f8bf42d2fc0c3243\lib-cfg_if`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.087308100s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+   0.087320000s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\cpufeatures-e17531c39eceb0d8\lib-cpufeatures`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.087647100s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   0.087658200s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\digest-2a849d1b1b20337f\lib-digest`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.087976200s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   0.087987700s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\block-buffer-be40999e9cccea26\lib-block_buffer`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.088369500s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\src\\lib.rs", Edition2015) }
+   0.088381900s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\generic-array-95bf0b75441ce7d0\lib-generic_array`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.089211900s  INFO prepare_target{force=false package_id=typenum v1.20.1 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.20.1/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.20.1\\src\\lib.rs", Edition2018) }
+   0.089223700s  INFO prepare_target{force=false package_id=typenum v1.20.1 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\typenum-76f6449f8986aae6\lib-typenum`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.089523100s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.7/Check { test: false }/TargetInner { ..: lib_target("crypto_common", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.7\\src\\lib.rs", Edition2018) }
+   0.089535000s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\crypto-common-82ce77086bb2e73e\lib-crypto_common`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.089860000s  INFO prepare_target{force=false package_id=tokio-tungstenite v0.29.0 target="tokio_tungstenite"}: cargo::core::compiler::fingerprint: fingerprint error for tokio-tungstenite v0.29.0/Check { test: false }/TargetInner { ..: lib_target("tokio_tungstenite", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-tungstenite-0.29.0\\src\\lib.rs", Edition2018) }
+   0.089871700s  INFO prepare_target{force=false package_id=tokio-tungstenite v0.29.0 target="tokio_tungstenite"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\tokio-tungstenite-8c8df9bc36d9ebb6\lib-tokio_tungstenite`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.090357100s  INFO prepare_target{force=false package_id=tungstenite v0.29.0 target="tungstenite"}: cargo::core::compiler::fingerprint: fingerprint error for tungstenite v0.29.0/Check { test: false }/TargetInner { ..: lib_target("tungstenite", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tungstenite-0.29.0\\src\\lib.rs", Edition2021) }
+   0.090369400s  INFO prepare_target{force=false package_id=tungstenite v0.29.0 target="tungstenite"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\tungstenite-8bc40bab2999c2ca\lib-tungstenite`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.090783400s  INFO prepare_target{force=false package_id=data-encoding v2.11.0 target="data_encoding"}: cargo::core::compiler::fingerprint: fingerprint error for data-encoding v2.11.0/Check { test: false }/TargetInner { ..: lib_target("data_encoding", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\data-encoding-2.11.0\\src\\lib.rs", Edition2018) }
+   0.090795500s  INFO prepare_target{force=false package_id=data-encoding v2.11.0 target="data_encoding"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\data-encoding-a3ee258d14bd0ebb\lib-data_encoding`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.091101500s  INFO prepare_target{force=false package_id=rand v0.9.4 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.9.4/Check { test: false }/TargetInner { ..: lib_target("rand", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.9.4\\src\\lib.rs", Edition2021) }
+   0.091112900s  INFO prepare_target{force=false package_id=rand v0.9.4 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\rand-968168c118fc7ec6\lib-rand`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.091428900s  INFO prepare_target{force=false package_id=rand_chacha v0.9.0 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.9.0/Check { test: false }/TargetInner { ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.9.0\\src\\lib.rs", Edition2021) }
+   0.091440900s  INFO prepare_target{force=false package_id=rand_chacha v0.9.0 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\rand_chacha-d199c6a2de4f135c\lib-rand_chacha`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.091848100s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ppv-lite86-0.2.21\\src\\lib.rs", Edition2021) }
+   0.091861900s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\ppv-lite86-ed8df625cfd5d871\lib-ppv_lite86`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.092237800s  INFO prepare_target{force=false package_id=zerocopy v0.8.50 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.50/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.50\\src\\lib.rs", Edition2021) }
+   0.092256100s  INFO prepare_target{force=false package_id=zerocopy v0.8.50 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\zerocopy-d8c9407e4ae83d13\lib-zerocopy`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.093437000s  INFO prepare_target{force=false package_id=rand_core v0.9.5 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.9.5/Check { test: false }/TargetInner { ..: lib_target("rand_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.9.5\\src\\lib.rs", Edition2021) }
+   0.093453000s  INFO prepare_target{force=false package_id=rand_core v0.9.5 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\rand_core-4b8fea0865df25be\lib-rand_core`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.093795200s  INFO prepare_target{force=false package_id=getrandom v0.3.4 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.3.4/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.3.4\\src\\lib.rs", Edition2021) }
+   0.093808600s  INFO prepare_target{force=false package_id=getrandom v0.3.4 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\getrandom-344c019c48ebd6b2\lib-getrandom`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.094809400s  INFO prepare_target{force=false package_id=thiserror v2.0.18 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v2.0.18/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-2.0.18\\src\\lib.rs", Edition2021) }
+   0.094821900s  INFO prepare_target{force=false package_id=thiserror v2.0.18 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\thiserror-e1ee310c92980661\lib-thiserror`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.095743000s  INFO prepare_target{force=false package_id=tower v0.5.3 target="tower"}: cargo::core::compiler::fingerprint: fingerprint error for tower v0.5.3/Check { test: false }/TargetInner { ..: lib_target("tower", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tower-0.5.3\\src\\lib.rs", Edition2018) }
+   0.095759100s  INFO prepare_target{force=false package_id=tower v0.5.3 target="tower"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\tower-f3b2a38b87090f03\lib-tower`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.096251700s  INFO prepare_target{force=false package_id=rust_server_backend v0.1.0 (C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend) target="rust_server_backend"}: cargo::core::compiler::fingerprint: fingerprint error for rust_server_backend v0.1.0 (C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend)/Check { test: true }/TargetInner { name: "rust_server_backend", doc: true, ..: with_path("C:\\Users\\user\\MyProjects\\rust_messenger_workspace\\rust_server_backend\\src\\main.rs", Edition2024) }
+   0.096265100s  INFO prepare_target{force=false package_id=rust_server_backend v0.1.0 (C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend) target="rust_server_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend\target\debug\.fingerprint\rust_server_backend-22a46465015d8ec7\test-bin-rust_server_backend`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking itoa v1.0.18
+    Checking bytes v1.11.1
+    Checking pin-project-lite v0.2.17
+    Checking futures-core v0.3.32
+    Checking windows-link v0.2.1
+    Checking cfg-if v1.0.4
+    Checking typenum v1.20.1
+    Checking zerocopy v0.8.50
+    Checking log v0.4.29
+    Checking serde_core v1.0.228
+    Checking httparse v1.10.1
+    Checking once_cell v1.21.4
+    Checking getrandom v0.3.4
+    Checking windows-sys v0.61.2
+    Checking tower-service v0.3.3
+    Checking futures-task v0.3.32
+    Checking slab v0.4.12
+    Checking cpufeatures v0.2.17
+    Checking futures-sink v0.3.32
+    Checking rand_core v0.9.5
+    Checking tracing-core v0.1.36
+    Checking futures-channel v0.3.32
+    Checking thiserror v2.0.18
+    Checking atomic-waker v1.1.2
+    Checking futures-util v0.3.32
+    Checking smallvec v1.15.1
+    Checking tower-layer v0.3.3
+    Checking sync_wrapper v1.0.2
+    Checking data-encoding v2.11.0
+    Checking httpdate v1.0.3
+    Checking percent-encoding v2.3.2
+    Checking http v1.4.0
+    Checking zmij v1.0.21
+    Checking tracing v0.1.44
+    Checking memchr v2.8.0
+    Checking mime v0.3.17
+    Checking form_urlencoded v1.2.2
+    Checking ryu v1.0.23
+    Checking base64 v0.22.1
+    Checking matchit v0.8.4
+    Checking generic-array v0.14.7
+    Checking http-body v1.0.1
+    Checking http-body-util v0.1.3
+    Checking block-buffer v0.10.4
+    Checking crypto-common v0.1.7
+    Checking axum-core v0.5.6
+    Checking digest v0.10.7
+    Checking sha1 v0.10.6
+    Checking serde v1.0.228
+    Checking serde_json v1.0.149
+    Checking serde_path_to_error v0.1.20
+    Checking mio v1.2.0
+    Checking socket2 v0.6.3
+    Checking serde_urlencoded v0.7.1
+    Checking tokio v1.52.1
+    Checking ppv-lite86 v0.2.21
+    Checking rand_chacha v0.9.0
+    Checking rand v0.9.4
+    Checking tungstenite v0.29.0
+    Checking hyper v1.9.0
+    Checking tower v0.5.3
+    Checking tokio-tungstenite v0.29.0
+    Checking hyper-util v0.1.20
+    Checking axum v0.8.9
+    Checking rust_server_backend v0.1.0 (C:\Users\user\MyProjects\rust_messenger_workspace\rust_server_backend)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.97s
