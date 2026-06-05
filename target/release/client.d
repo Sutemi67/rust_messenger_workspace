@@ -1,0 +1,1 @@
+C:\Users\user\MyProjects\rust_messenger_workspace\target\release\client.exe: C:\Users\user\MyProjects\rust_messenger_workspace\client\assets\font.ttf C:\Users\user\MyProjects\rust_messenger_workspace\client\src\main.rs

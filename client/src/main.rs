@@ -92,7 +92,7 @@ impl ChatApp {
         std::thread::spawn(move || {
             let rt = tokio::runtime::Runtime::new().unwrap();
             rt.block_on(async {
-                let url = "ws://127.0.0.1:8080/ws";
+                let url = "ws://82.21.114.110:8080/ws";
 
                 if let Ok((ws_stream, _)) = connect_async(url).await {
                     let (mut write, mut read) = ws_stream.split();
