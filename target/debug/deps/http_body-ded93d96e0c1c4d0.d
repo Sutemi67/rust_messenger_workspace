@@ -1,9 +1,0 @@
-C:\Users\user\MyProjects\rust_messenger_workspace\target\debug\deps\http_body-ded93d96e0c1c4d0.d: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\frame.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\size_hint.rs
-
-C:\Users\user\MyProjects\rust_messenger_workspace\target\debug\deps\libhttp_body-ded93d96e0c1c4d0.rlib: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\frame.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\size_hint.rs
-
-C:\Users\user\MyProjects\rust_messenger_workspace\target\debug\deps\libhttp_body-ded93d96e0c1c4d0.rmeta: C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\lib.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\frame.rs C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\size_hint.rs
-
-C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\lib.rs:
-C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\frame.rs:
-C:\Users\user\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-1.0.1\src\size_hint.rs:
