@@ -1,5 +1,9 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")] // Отключает консоль в релизе на Windows
-
+#[cfg(target_os = "windows")]
+unsafe extern "system" {
+    #[link_name = "MessageBeep"]
+    fn message_beep(u_type: u32) -> i32;
+}
 use eframe::egui;
 use futures_util::{SinkExt, StreamExt};
 use serde::{Deserialize, Serialize};
@@ -139,6 +143,17 @@ impl eframe::App for ChatApp {
                 match event {
                     ChatEvent::Message { user, text } => {
                         self.history.push(format!("{}: {}", user, text));
+                        let has_focus = ctx.input(|i| i.viewport().focused.unwrap_or(true));
+                        if !has_focus {
+                            ctx.send_viewport_cmd(egui::ViewportCommand::RequestUserAttention(
+                                egui::UserAttentionType::Informational, // Или Critical для более агрессивного мигания
+                            ));
+                            // Исправленный системный звук Windows
+                            #[cfg(target_os = "windows")]
+                            unsafe {
+                                message_beep(0);
+                            }
+                        }
                     }
                     ChatEvent::SyncUsers(active_users) => {
                         self.users = active_users;
