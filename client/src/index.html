@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young & successful chat</title>
+    <style>
+        body { font-family: sans-serif; background: #2d2d2d; color: #eee; display: flex; height: 100vh; margin: 0; }
+        /* Скрываем/показываем экраны */
+        .hidden { display: none !important; }
+        
+        /* Экран логина */
+        #login-screen { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; }
+        #login-screen input, #login-screen button { padding: 10px; margin: 5px; font-size: 16px; border-radius: 4px; border: 1px solid #555; background: #3c3c3c; color: #eee; }
+        
+        /* Экран чата */
+        #chat-screen { display: flex; width: 100%; }
+        #sidebar { width: 200px; background: #252526; padding: 15px; border-right: 1px solid #444; overflow-y: auto; }
+        #main { flex: 1; display: flex; flex-direction: column; padding: 15px; }
+        #messages { flex: 1; overflow-y: auto; background: #1e1e1e; padding: 10px; border-radius: 5px; margin-bottom: 10px; }
+        #input-area { display: flex; gap: 10px; }
+        #msg-input { flex: 1; padding: 10px; background: #3c3c3c; border: 1px solid #555; color: #eee; border-radius: 4px; font-size: 16px; }
+        button { padding: 10px 20px; background: #0e639c; border: none; color: #fff; cursor: pointer; border-radius: 4px; font-size: 16px; }
+        button:hover { background: #1177bb; }
+    </style>
+</head>
+<body>
+
+    <!-- ЭКРАН 1: ВХОД -->
+    <div id="login-screen">
+        <h2>Вход в чат</h2>
+        <p>Введите ваш никнейм для подключения:</p>
+        <input type="text" id="username-input" placeholder="Никнейм...">
+        <button onclick="connect()">Подключиться</button>
+    </div>
+
+    <!-- ЭКРАН 2: ЧАТ -->
+    <div id="chat-screen" class="hidden">
+        <div id="sidebar">
+            <h3>В сети:</h3>
+            <ul id="users-list" style="list-style: none; padding: 0;"></ul>
+        </div>
+        <div id="main">
+            <h3>Молодые и успешные</h3>
+            <div id="messages"></div>
+            <div id="input-area">
+                <input type="text" id="msg-input" placeholder="Введите сообщение..." onkeydown="if(event.key === 'Enter') sendMessage()">
+                <button onclick="sendMessage()">Послать</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let ws;
+        let username = "";
+
+        function connect() {
+            username = document.getElementById('username-input').value.trim();
+            if (!username) return;
+
+            document.getElementById('login-screen').classList.add('hidden');
+            document.getElementById('chat-screen').classList.remove('hidden');
+            ws = new WebSocket("ws://82.21.114.110:8080/ws");
+
+            ws.onopen = () => {
+                ws.send(username);
+                addMessage("Система", "Попытка подключения к серверу...");
+            };
+
+            ws.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                handleEvent(data);
+            };
+
+            ws.onclose = () => addMessage("Система", "Соединение разорвано.");
+        }
+
+        function handleEvent(event) {
+            // Разбираем твой serde(tag = "type", content = "payload")
+            if (event.type === "Message") {
+                addMessage(event.payload.user, event.payload.text);
+                playBeep(); // Звук и мигание
+            } else if (event.type === "SyncUsers") {
+                updateUsers(event.payload);
+            } else if (event.type === "UserJoined") {
+                addMessage("Система", `${event.payload} присоединился к чату`);
+            } else if (event.type === "UserLeft") {
+                addMessage("Система", `${event.payload} покинул чат`);
+            }
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('msg-input');
+            const text = input.value.trim();
+            if (text && ws) {
+                // В Rust коде ты делаешь serde_json::to_string(&msg_text), 
+                // что превращает строку в "\"text\"". JSON.stringify делает ровно то же самое.
+                ws.send(JSON.stringify(text)); 
+                input.value = '';
+            }
+        }
+
+        function addMessage(user, text) {
+            const div = document.createElement('div');
+            div.textContent = `${user}: ${text}`;
+            const msgBox = document.getElementById('messages');
+            msgBox.appendChild(div);
+            msgBox.scrollTop = msgBox.scrollHeight; // Авто-скролл вниз
+        }
+
+        function updateUsers(users) {
+            const list = document.getElementById('users-list');
+            list.innerHTML = '';
+            users.forEach(u => {
+                const li = document.createElement('li');
+                li.textContent = `👤 ${u}`;
+                list.appendChild(li);
+            });
+        }
+
+        // Аналог MessageBeep и мигания окном
+        function playBeep() {
+            if (document.hidden) {
+                // Короткий звук (base64 wav)
+                const audio = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbsGczIj+a3teleTk8');
+                audio.play().catch(e => console.log("Браузер заблокировал авто-воспроизведение звука"));
+            }
+        }
+    </script>
+</body>
+</html>
