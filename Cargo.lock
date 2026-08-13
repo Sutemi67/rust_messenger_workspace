@@ -505,8 +505,8 @@ version = "0.1.0"
 dependencies = [
  "axum",
  "futures-util",
- "serde",
  "serde_json",
+ "shared",
  "tokio",
 ]
 
@@ -743,8 +743,8 @@ version = "0.1.0"
 dependencies = [
  "eframe",
  "futures-util",
- "serde",
  "serde_json",
+ "shared",
  "tokio",
  "tokio-tungstenite 0.21.0",
 ]
@@ -2992,6 +2992,13 @@ dependencies = [
  "cfg-if",
  "cpufeatures",
  "digest",
+]
+
+[[package]]
+name = "shared"
+version = "0.1.0"
+dependencies = [
+ "serde",
 ]
 
 [[package]]

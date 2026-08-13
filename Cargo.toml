@@ -1,6 +1,6 @@
 [workspace]
 members = [
     "client",
-    "backend",
+    "backend", "shared",
 ]
 resolver = "2"
